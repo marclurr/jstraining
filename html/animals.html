@@ -1,0 +1,12 @@
+<div class="container">
+	<div class="col-md-4 col-md-offset-4">
+		<ul id="animals">
+			<li data-repeat="animals">
+				<a href="#/animals/{{=it.id}}">{{=it.name}} - {{=it.species}}</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<nav class="navbar navbar-default navbar-fixed-bottom">
+	<button class="navbar-btn" data-click="add">Add</button>
+</nav>
